@@ -75,7 +75,7 @@
             </div>
 
             <div class="is-size-5 publication-authors">
-              <span class="author-block">Institution Name<br>ICCV 2025</span>
+              <span class="author-block">State Key Lab of CAD&CG, Zhejiang University<br>ICCV 2025</span>
               <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span>
             </div>
 
@@ -103,17 +103,6 @@
                   </a>
                 </span>
 
-                <!-- Github link -->
-                <span class="link-block">
-                  <a href="https://github.com/YOUR REPO HERE" target="_blank"
-                    class="external-link button is-normal is-rounded is-dark">
-                    <span class="icon">
-                      <i class="fab fa-github"></i>
-                    </span>
-                    <span>Code</span>
-                  </a>
-                </span>
-
                 <!-- ArXiv abstract Link -->
                 <span class="link-block">
                   <a href="https://arxiv.org/abs/<ARXIV PAPER ID>" target="_blank"
@@ -132,15 +121,11 @@
     </div>
   </section>
 
-
-  <!-- Teaser video-->
+  <!-- Teaser PDF -->
   <section class="hero teaser">
     <div class="container is-max-desktop">
       <div class="hero-body">
-        <video poster="" id="tree" autoplay controls muted loop height="100%">
-          <!-- Your video here -->
-          <source src="static/videos/banner_video.mp4" type="video/mp4">
-        </video>
+        <embed src="static/pdfs/arch.pdf" type="application/pdf" width="100%" height="600px">
         <h2 class="subtitle has-text-centered">
           Aliquam vitae elit ullamcorper tellus egestas pellentesque. Ut lacus tellus, maximus vel lectus at, placerat
           pretium mi. Maecenas dignissim tincidunt vestibulum. Sed consequat hendrerit nisl ut maximus.
@@ -148,7 +133,7 @@
       </div>
     </div>
   </section>
-  <!-- End teaser video -->
+  <!-- End teaser PDF -->
 
   <!-- Paper abstract -->
   <section class="section hero is-light">
@@ -163,13 +148,15 @@
               image to a 3D scene while faithfully preserving its content structure and spatial layout. Works leveraging
               implicit representations with gradient-based optimization achieve impressive style transfer results, yet
               the lengthy processing time per individual style makes rapid switching impractical. In this paper, we
-              propose A<sup>3</sup>GS, a novel feed-forward neural network for zero-shot 3DGS stylization that enables transferring
+              propose A<sup>3</sup>GS, a novel feed-forward neural network for zero-shot 3DGS stylization that enables
+              transferring
               any image style to arbitrary 3D scenes in just 10 seconds without the need for per-style optimization. Our
               work introduces a Graph Convolutional Network (GCN)-based autoencoder aimed at efficient feature
               aggregation and decoding of spatially structured 3D Gaussian scenes. The encoder converts 3DGS scenes into
               a latent space. Furthermore, for the latent space, we utilize Adaptive Instance Normalization (AdaIN) to
               inject features from the target style image into the 3D Gaussian scene. Finally, we constructed a 3DGS
-              dataset using a generative model and proposed a two-stage training strategy for A<sup>3</sup>GS. Owing to the
+              dataset using a generative model and proposed a two-stage training strategy for A<sup>3</sup>GS. Owing to
+              the
               feed-forward design, our framework can perform fast style transfer on large-scale 3DGS scenes, which poses
               a severe challenge to the memory consumption of optimization-based methods. Extensive experiments
               demonstrate that our approach achieves high-quality, consistent 3D stylization in seconds.
