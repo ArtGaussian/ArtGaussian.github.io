@@ -127,15 +127,10 @@
       <div class="hero-body">
         <img src="static/images/arch.jpg" alt="A³GS Teaser" style="width: 100%; height: auto;">
         <h2 class="subtitle has-text-centered">
-          <strong>Method overview.</strong>
-          (a) <strong>Network Architecture:</strong> Our model consists of two modules: a 3D-GCN-based autoencoder <a
-            href="#ref-lin2020" class="citation">[Lin et al. 2020]</a> for feature aggregation and decoding, and an
-          AdaIN <a href="#ref-huang2017" class="citation">[Huang & Belongie 2017]</a> module for style injection.
-          (b) <strong>Two Training Stages:</strong> The model first undergoes autoencoder training to encode and
-          reconstruct 3D Gaussian colors, followed by a stylization stage where a style transfer module is introduced
-          and optimized using a style loss function.
-          (c) &amp; (d) <strong>3D Graph Convolutional Layer and Max Pooling Layer</strong> introduced from <a
-            href="#ref-lin2020" class="citation">[Lin et al. 2020]</a>.
+          We propose A<sup>3</sup>GS, a novel feed-forward neural network for zero-shot 3DGS stylization that enables transferring
+          any image style to arbitrary 3DGS within seconds without the need for optimization. Our feed-forward
+          architecture supports streaming data processing, allowing for rapid style transfer even on large-scale 3D
+          Gaussian scenes.
         </h2>
       </div>
     </div>
